@@ -1,5 +1,5 @@
+import 'package:design/landing_page.dart';
 import 'package:design/theme/theme.dart';
-import 'package:design/views/login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: lightthemeData(),
       darkTheme: darkthemeData(),
-      home: Login(),
+      home: LandingPage(),
     );
   }
 }
