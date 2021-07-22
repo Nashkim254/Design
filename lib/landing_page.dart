@@ -1,3 +1,4 @@
+import 'package:design/views/login.dart';
 import 'package:design/widgets/Custom_card.dart';
 import 'package:design/widgets/cutom_button.dart';
 import 'package:design/widgets/top.dart';
@@ -20,7 +21,10 @@ class LandingPage extends StatelessWidget {
                     width: 24,
                     label: "login",
                     color: Colors.grey.withOpacity(0.9),
-                    onPressed: () {})
+                    onPressed: () {
+                      Navigator.push(
+                          context, MaterialPageRoute(builder: (_) => Login()));
+                    })
               ],
             ),
             Text(
